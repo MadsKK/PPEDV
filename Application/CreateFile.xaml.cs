@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,6 +20,7 @@ namespace Application
     /// </summary>
     public partial class CreateFile : Window
     {
+
         public CreateFile()
         {
             InitializeComponent();
@@ -31,6 +33,15 @@ namespace Application
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
+            string targetFile = MainWindow.targetFile;
+
+            using (FileStream fs = File.Create(targetFile))
+            {
+                byte[] info = new UTF8Encoding(true).GetBytes("This is a test");
+                fs.Write(info, 0, info.Length);
+            }
+
             new MainWindow().Show();
             this.Close();
         }

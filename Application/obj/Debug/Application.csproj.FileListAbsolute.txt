@@ -1,0 +1,38 @@
+c:\users\mads k\source\repos\Application\Application\obj\Debug\Application.csprojAssemblyReference.cache
+c:\users\mads k\source\repos\Application\Application\obj\Debug\MainWindow.g.cs
+c:\users\mads k\source\repos\Application\Application\obj\Debug\App.g.cs
+c:\users\mads k\source\repos\Application\Application\obj\Debug\Application_MarkupCompile.cache
+c:\users\mads k\source\repos\Application\Application\obj\Debug\Application_MarkupCompile.lref
+c:\users\mads k\source\repos\Application\Application\bin\Debug\Application.exe.config
+c:\users\mads k\source\repos\Application\Application\bin\Debug\Application.exe
+c:\users\mads k\source\repos\Application\Application\bin\Debug\Application.pdb
+c:\users\mads k\source\repos\Application\Application\obj\Debug\MainWindow.baml
+c:\users\mads k\source\repos\Application\Application\obj\Debug\Application.g.resources
+c:\users\mads k\source\repos\Application\Application\obj\Debug\Application.Properties.Resources.resources
+c:\users\mads k\source\repos\Application\Application\obj\Debug\Application.csproj.GenerateResource.cache
+c:\users\mads k\source\repos\Application\Application\obj\Debug\Application.csproj.CoreCompileInputs.cache
+c:\users\mads k\source\repos\Application\Application\obj\Debug\Application.exe
+c:\users\mads k\source\repos\Application\Application\obj\Debug\Application.pdb
+c:\users\mads k\source\repos\Application\Application\obj\Debug\CreateFile.g.cs
+c:\users\mads k\source\repos\Application\Application\obj\Debug\CreateFile.baml
+C:\Users\Mads K\source\repos\Application\Application\obj\Debug\OpenFile.g.cs
+C:\Users\Mads K\source\repos\Application\Application\obj\Debug\OpenFile.baml
+C:\Users\Mads\source\repos\Application\Application\obj\Debug\Application.exe
+C:\Users\Mads\source\repos\Application\Application\obj\Debug\Application.pdb
+C:\Users\Mads\source\repos\Application\Application\bin\Debug\Application.exe.config
+C:\Users\Mads\source\repos\Application\Application\bin\Debug\Application.exe
+C:\Users\Mads\source\repos\Application\Application\bin\Debug\Application.pdb
+C:\Users\Mads\source\repos\Application\Application\obj\Debug\Application.csprojAssemblyReference.cache
+C:\Users\Mads\source\repos\Application\Application\obj\Debug\CreateFile.g.cs
+C:\Users\Mads\source\repos\Application\Application\obj\Debug\MainWindow.g.cs
+C:\Users\Mads\source\repos\Application\Application\obj\Debug\OpenFile.g.cs
+C:\Users\Mads\source\repos\Application\Application\obj\Debug\App.g.cs
+C:\Users\Mads\source\repos\Application\Application\obj\Debug\Application_MarkupCompile.cache
+C:\Users\Mads\source\repos\Application\Application\obj\Debug\Application_MarkupCompile.lref
+C:\Users\Mads\source\repos\Application\Application\obj\Debug\CreateFile.baml
+C:\Users\Mads\source\repos\Application\Application\obj\Debug\MainWindow.baml
+C:\Users\Mads\source\repos\Application\Application\obj\Debug\OpenFile.baml
+C:\Users\Mads\source\repos\Application\Application\obj\Debug\Application.g.resources
+C:\Users\Mads\source\repos\Application\Application\obj\Debug\Application.Properties.Resources.resources
+C:\Users\Mads\source\repos\Application\Application\obj\Debug\Application.csproj.GenerateResource.cache
+C:\Users\Mads\source\repos\Application\Application\obj\Debug\Application.csproj.CoreCompileInputs.cache

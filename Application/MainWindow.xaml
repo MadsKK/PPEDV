@@ -13,7 +13,7 @@
         </Grid.ColumnDefinitions>
         <Button Content="Encrypt" HorizontalAlignment="Left" Margin="244.8,131,0,0" VerticalAlignment="Top" Width="196" Height="134" Click="Button_Click_1" Grid.Column="1"/>
         <Button Content="Decrpyt" HorizontalAlignment="Left" Height="134" Margin="504.8,131,0,0" VerticalAlignment="Top" Width="188" Click="Button_Click" Grid.Column="1"/>
-        <Button Content="Create File" Grid.Column="1" HorizontalAlignment="Left" Margin="24.8,131,0,0" VerticalAlignment="Top" Width="165" Height="134" Click="Button_Click_2" Cursor="Wait"/>
+        <Button Name="Button3" Content="Create File" Grid.Column="1" HorizontalAlignment="Left" Margin="24.8,131,0,0" VerticalAlignment="Top" Width="165" Height="134" Click="Button_Click_2" Cursor="Wait"/>
 
     </Grid>
 </Window>

@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Security.Cryptography;
 
 namespace Application
 {
@@ -13,5 +14,6 @@ namespace Application
     /// </summary>
     public partial class App
     {
+
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +21,24 @@ namespace Application
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        private static string path = System.Reflection.Assembly.GetExecutingAssembly().Location;
+
+        public static string directory = System.IO.Path.GetDirectoryName(path);
+
+        public static string targetFile = directory + @"\secret.ppv";
+
+
+        public bool fileExists;
+
         public MainWindow()
         {
             InitializeComponent();
+            if (File.Exists(targetFile))
+            {
+                Button3.Content = "Open File";
+                fileExists = true;
+            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -36,9 +52,18 @@ namespace Application
         }
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
+
             
-            new CreateFile().Show();
-            this.Close();
+
+            if (fileExists == true)
+            {
+                new OpenFile().ShowDialog();
+
+            } else
+            {
+                new CreateFile().ShowDialog();
+                
+            }
             
         }
     }
