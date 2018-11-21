@@ -1,0 +1,20 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-Application",
+      "appliesTo": "Application.sln",
+      "type": "launch"
+    },
+    {
+      "taskName": "task-Properties",
+      "appliesTo": "Application/Properties/",
+      "type": "launch"
+    },
+    {
+      "taskName": "task-OpenFile",
+      "appliesTo": "Application/OpenFile.xaml",
+      "type": "launch"
+    }
+  ]
+}

@@ -29,8 +29,8 @@ namespace Application
         public OpenFile()
         {
             
-
             InitializeComponent();
+            Textbox.IsEnabled = false;
         }
 
 
@@ -38,6 +38,8 @@ namespace Application
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
+
 
             string file;
             string text;
@@ -66,9 +68,11 @@ namespace Application
 
                 Textbox.Text = text;
 
+                Textbox.IsEnabled = true;
+
             } catch (Exception)
             {
-                Console.WriteLine("I/O Error");
+                Console.WriteLine("Error trying to open or read file");
             }
             
         }
@@ -80,6 +84,19 @@ namespace Application
                 byte[] info = new UTF8Encoding(true).GetBytes(Textbox.Text);
                 fs.Write(info, 0, info.Length);
             }
+
+            string msg = "You have saved your file!";
+
+            
+
+            MessageBoxButton button = MessageBoxButton.OK;
+            MessageBoxResult result = MessageBox.Show(msg, "Confirmation", button);
+
+            if (result == MessageBoxResult.OK)
+            {
+                this.Close();
+            }
+
         }
     }
 }

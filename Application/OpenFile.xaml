@@ -8,7 +8,7 @@
         Title="OpenFile" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
         <Button Content="Open" HorizontalAlignment="Left" Margin="49,42,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Button Content="Save" HorizontalAlignment="Left" Margin="155,42,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1" />
-        <TextBox Name="Textbox" HorizontalAlignment="Left" Height="297" Margin="49,96,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="684"/>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="155,42,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <TextBox Name="Textbox" AcceptsReturn="true" HorizontalAlignment="Left" Height="297" Margin="49,96,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="684"/>
     </Grid>
 </Window>
