@@ -33,14 +33,15 @@ namespace Application
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            string targetFile = MainWindow.directory+ @"\" + inputBox.Text + @".ppv";
 
-            string targetFile = MainWindow.targetFile;
-
-            using (FileStream fs = File.Create(targetFile))
+            using (FileStream fs = File.Create(targetFile)) //Writes to file
             {
                 byte[] info = new UTF8Encoding(true).GetBytes("This is a test");
                 fs.Write(info, 0, info.Length);
             }
+
+            MainWindow.targetName = targetFile;
 
             new MainWindow().Show();
             this.Close();

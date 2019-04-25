@@ -12,7 +12,7 @@
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <TextBox HorizontalAlignment="Right" Height="23" Margin="0,101,536.6,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" Grid.Column="1"/>
+        <TextBox Name="inputBox" HorizontalAlignment="Right" Height="23" Margin="0,101,536.6,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" Grid.Column="1"/>
         <Button Grid.ColumnSpan="2" Content="Button" HorizontalAlignment="Left" Margin="461,124,0,0" VerticalAlignment="Top" Width="75" Height="19" Click="Button_Click"/>
 
     </Grid>

@@ -26,42 +26,42 @@ namespace Application
 
         public static string directory = System.IO.Path.GetDirectoryName(path);
 
-        public static string targetFile = directory + @"\secret.ppv";
-
+        public static string targetName = "";
 
         public bool fileExists;
 
         public MainWindow()
         {
             InitializeComponent();
-            if (File.Exists(targetFile))
+            if (File.Exists(targetName))
             {
                 Button3.Content = "Open File";
                 fileExists = true;
             }
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e) // Decrypt
         {
 
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e) // Encrypt
         {
 
         }
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
 
-            
+        private void Button_Click_2(object sender, RoutedEventArgs e) // Create file or Open file
+        {
 
             if (fileExists == true)
             {
                 new OpenFile().ShowDialog();
+                this.Close();
 
             } else
             {
                 new CreateFile().ShowDialog();
+                this.Close();
                 
             }
             

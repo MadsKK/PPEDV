@@ -24,7 +24,7 @@ namespace Application
 
         public static string directory = MainWindow.directory;
 
-        public static string targetFile = MainWindow.targetFile;
+        public static string targetFile = MainWindow.targetName;
 
         public OpenFile()
         {
@@ -38,8 +38,6 @@ namespace Application
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
-
 
             string file;
             string text;
